@@ -1,0 +1,24 @@
+
+You can use bayesian optimisation for any optimisation:
+
+You just need to provide it with input parameters (in any measuring unit) and a score (in any measuring unit).
+No programming knowledge is required. 
+
+Check out: https://prod.brownie.projects.alexandra.dk. This is a guided user interface, 
+which allows you to use bayesian optimisation without any coding experiece.
+
+A fun thing to try is optimising the shooting length of this catapult 
+https://sigmazone.com/catapult/
+
+Try to hit 225 cm! 
+As inputs give: “Pin elevation”, “Firing angle”, “Bungee position ” and “cup elevation.” 
+Fire the catapult a report the score as cm away from 225 cm as a positive number. 
+
+Download this file to easily configure the optimiser: 
+
+https://github.com/Andreasrygaard/Data_Example_Browniebee/blob/main/Browniebee_catapult_example.json
+
+In an attempt to further Bayesian optimisation beyond pharma, the code has been made opensource and available in a python package 
+check out https://github.com/novonordisk-research/ProcessOptimizer
+More knowledge can be found at Boost Væksten (browniebee.dk)
+
